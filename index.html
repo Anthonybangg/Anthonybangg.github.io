@@ -18,7 +18,7 @@
     </nav>
   </head>
   <body>
-     
+     <!--=========================TOP SECTION========================-->
   <div id="welcome-div">
     <section id="welcome-section">
       <h1> Hello, I am Anthony Bang</h1>
@@ -41,21 +41,24 @@
   </div>
 
 
-
+<!--======================CONTACT SECTION=========================-->
 
   <section class="information" id="information">
     <div class="about" id="about">
       <h3 class="about-h3">
-        About <i class="fa-solid fa-person"></i>
+        About me <i class="fa-solid fa-person"></i>
       </h3>
-      <div class="about-p-div">
+      <div class="about-paragraph-div">
         <p class="about-paragraph">
-        I am a self-taught aspiring software engineer and front end web-developer. I’ve been studying and building projects every single day for half a year now. I am a lifelong learner and enjoy learning new things everyday. I am always trying to learn and like that there is always something new to learn in this field.
+          I am a self-taught aspiring software engineer. 
+          <br>I love learning new things everyday and enjoy solving 
+          problems that require the use of my brain. I study/research
+          for about 2-4 hours a day 4-7 times a week. I am a learning 
+          addict and it consumes my life at times but I enjoy the grind
+          if it means I'll acomplish a lot in my life time.
+
         </p>
       </div>
-       
-       
-
     </div>
     <div class="contact" id="contact">
       <h4 class="contact-h4">
@@ -63,17 +66,25 @@
       </h4>
       <p class="contact-p"> (651)-285-1572</p>
       <p class="contact-p"> Email: Anthonybang36@gmail.com</p>
-      
-      <div class="email-message">
-        <textarea  placeholder=" Message me here."> </textarea>
-
-        <button class="email-button" type="submit" >Send</button>
+      <div class="email-info">
+         <form class="email-form" action="https://formsubmit.co/anthonybang36@gmail.com" method="POST">
+          <div class="email-message-div">
+            <textarea required class="formbold-form-input" rows="6" name="message" id="message" placeholder="Type your message"></textarea>
+            
+          </div>
+          <div class="email-div">
+            <input type="email" name="email" placeholder="What's your email?" required>
+            <button class="email-button" type="submit">Send</button>
+          </div>
+        </form>
       </div>
     </div>
     <div class="work" id="work">
-
     </div>
   </section>
+
+<!--==========================Project Section=====================-->
+
     <section id="projects">
       <hr></hr>
       <h2>My Projects</h2>
