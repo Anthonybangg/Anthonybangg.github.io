@@ -82,6 +82,7 @@
     margin-right: 3rem;  
     list-style-type: none; 
   }
+  /*NAV LIST*/
   .nav-list a{
     display: block;
     font-size: 1.95rem;
@@ -130,26 +131,7 @@
     font-size: 2.65em !important;
     animation: name 4s infinite;
   }
-  /*
-  @keyframes name {
-    0% {
-      color: #ff4949;
-      
-    }
-    25% {
-      color: #8c77e4;
-    } 
-    50% {
-      color: #89d9ff;
-    }
-    75% {
-      color: #8c77e4;
-    } 
-    100% {
-      color: #ff4949;
-    } 
-  }
-  */
+  
   
   .underheader {
     position: relative;
@@ -232,7 +214,7 @@
     
     
   }
-  .about-p-div{
+  .about-paragraph-div{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -259,30 +241,31 @@
     font-family: 'David Libre', serif;
     
   }
-  .email-message {
+  .email-form{
+    width: 29em;
+  }
+  .email-info {
     display: flex;
     justify-content: center;
     margin-top:10px ;
     
+  
   }
-  textarea {
-    border-radius: 10px;
-    width: 22rem;
-    height: 10rem;
-    display: grid;
+  
+  
+  .formbold-form-input {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 6px;
+    border: 1px solid #e0e0e0;
+    background: white;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6b7280;
+    outline: none;
+    resize: none;
   }
-  .email-button {
-    display: grid;
-    margin-top: 75px;
-    width: 4em;
-    height: 2em;
-    align-items: center;
-    border-radius: 2px;
-    cursor: pointer;
-    justify-content: center;
-    border-style: solid;
-    border-color:black;
-  }
+  
   .project-tile a:hover {
     color: white;
     transition: .6s;
@@ -368,8 +351,3 @@
     font-size: 2rem;  
     padding: 2rem 0.5rem;
   }
-
-  
-
-
-  
