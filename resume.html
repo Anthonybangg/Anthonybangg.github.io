@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7953410391.js" crossorigin="anonymous"></script>
+    <script href="app.js"></script>
+</head>
+<body>
+    <!--======NAV=====-->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Anthony Bang</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <!-- <li><a href="services.html">Services</a></li> -->
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    
+                </ul>
+                <button class="sidebar-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <!--================= Side bar =====================-->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+          
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <!-- links -->
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li><a href="https://www.linkedin.com/in/anthony-bang-5a1097248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYwrqpzk8TfO58Sj2M9e3rA%3D%3D" class="linkedin-logo">
+            <i class="fa-brands fa-linkedin"></i>
+            </a></li>
+        <li><a href="https://github.com/plumentoDx" class="github-logo">
+            <i class="fa-brands fa-github"></i>
+            </a></li>
+      </ul>
+    </aside>
+
+
+    <!--======Main Section=====-->
+    <section class="main-section">
+        <div class="main-div">
+            <div class="bg"></div>
+            <div class="resume-div">
+                <img class="resume-img" src="resume.png" height="700px">
+            </div>
+           
+             
+        </div>
+         
+         
+    </section>
+    <style>
+        
+         
+        .resume-img{
+            border-radius: 10px;
+            box-shadow: 20px 10px 5px black;
+        }
+        .resume-div {
+            border-radius: 10px;
+            animation: effect 2s;
+            display: contents;
+        }
+        .resume-img:hover{
+            animation: effect 2s;
+        }
+    </style>
+
+     
+    
+    
+      <!--======Footer=====-->
+    <section>
+    <footer>
+        <div class="footer-div">
+            <nav class="nav">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">Anthony Bang</a>
+                    </div>
+                    <div id="mainListDiv" class="main_list">
+                        <ul class="navlinks">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <!-- <li><a href="services.html">Services</a></li> -->
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <span class="navTrigger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    </section>
+
+
+    
+</body>
+</html>

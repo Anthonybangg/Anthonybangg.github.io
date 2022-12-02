@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/7953410391.js" crossorigin="anonymous"></script>
+    <script href="app.js"></script>
+</head>
+<body>
+    <!--======NAV=====-->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Anthony Bang</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <!-- <li><a href="services.html">Services</a></li> -->
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="sidebar-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+    <!--================= Side bar =====================-->
+    <aside class="sidebar">
+        <div class="sidebar-header">
+          
+          <button class="close-btn"><i class="fas fa-times"></i></button>
+        </div>
+        <!-- links -->
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <!-- social media -->
+      <ul class="social-icons">
+        <li><a href="https://www.linkedin.com/in/anthony-bang-5a1097248?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYwrqpzk8TfO58Sj2M9e3rA%3D%3D" class="linkedin-logo">
+            <i class="fa-brands fa-linkedin"></i>
+            </a></li>
+        <li><a href="https://github.com/plumentoDx" class="github-logo">
+            <i class="fa-brands fa-github"></i>
+            </a></li>
+      </ul>
+    </aside>
+
+
+    <!--======Main Section=====-->
+    <section class="main-section-about">
+        <div class="main-div-about">
+            <div class="bg"></div>
+            <div class="about-img-div">
+                <img class="about-img"src="img1.png">
+            </div>
+            <div class="about-description">
+                <h1 class="about-h1">My name is Anthony Bang</h1>
+                <div>
+                    <p class="about-description-p">I am a self-taught aspiring software engineer.
+                        I love learning new things everyday and enjoy solving problems that 
+                        require the use of my brain. I study/research for about 2-4 hours a day 
+                        4-7 times a week. I am a learning addict and it consumes my life at times
+                            but I enjoy the grind if it means I'll acomplish a lot in 
+                            my life time. </p>
+                </div> 
+                 
+                 
+            </div>
+            
+        </div>
+         
+         
+    </section>
+    
+    <style>
+        .about-img{
+            height: 500px;
+            width:400px;
+            box-shadow: 20px 20px 5px black;
+            border-radius: 10px;
+             
+        }
+        .about-img-div{
+            display: flex;
+            justify-content: center;
+        }
+       
+        .main-section-about {
+            padding-bottom: 7em;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        
+        .about-description {
+            color: white;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+
+        .main-section-about {
+            display:grid;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            overflow: hidden;
+            height: 55em;
+            
+            
+        }
+        .main-div-about{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            
+
+        }
+         
+        
+    </style>
+
+     
+    <!--======second Section=====-->
+     
+    
+      <!--======Footer=====-->
+    <section>
+    <footer>
+        <div class="footer-div">
+            <nav class="nav">
+                <div class="container">
+                    <div class="logo">
+                        <a href="index.html">Anthony Bang</a>
+                    </div>
+                    <div id="mainListDiv" class="main_list">
+                        <ul class="navlinks">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <!-- <li><a href="services.html">Services</a></li> -->
+                            <li><a href="resume.html">Resume</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <span class="navTrigger">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </span>
+                </div>
+            </nav>
+        </div>
+    </footer>
+    <script src="app.js"></script>
+    </section>
+</body>
+</html>
